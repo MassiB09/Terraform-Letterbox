@@ -1,0 +1,14 @@
+# Archivos de estado de Terraform (contienen información sensible)
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+terraform.tfstate
+terraform.tfstate.backup
+
+# Directorios locales de Terraform
+.terraform/
+
+# Archivos importantes
+terraform.tfvars
+variables.tf
